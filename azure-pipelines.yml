@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  name: local
+  name: HMS
 
 steps:
 - task: NodeTool@0
