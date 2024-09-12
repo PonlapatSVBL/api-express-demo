@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = 3000;
+const port = 8080;
 
 // Middleware เพื่อให้ Express สามารถอ่าน JSON ได้
 app.use(express.json());
@@ -23,5 +23,5 @@ app.post('/api/data', (req, res) => {
 
 // Start server
 app.listen(port, () => {
-  console.log(`Server running at http://localhost:${port}`);
+  console.log(`Server running at: ${port}`);
 });
